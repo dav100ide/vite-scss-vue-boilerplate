@@ -1,9 +1,16 @@
 <template>
-   <main>MAIN</main>
+   <main>
+      <CiaoSection />
+   </main>
 </template>
 
 <script>
-export default {};
+import CiaoSection from './MainSections/CiaoSection.vue';
+export default {
+   components: {
+      CiaoSection,
+   },
+};
 </script>
 
 <style lang="scss" scoped></style>
